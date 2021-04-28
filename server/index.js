@@ -15,8 +15,8 @@ app.use(cors());
 app.use("/posts", postRoutes);
 app.use("/user", userRouter);
 
-const CONNECTION_URL =
-  "mongodb+srv://luis:soccer7@cluster0.nbhqa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const CONNECTION_URL ;
+//add a mongoose custer here
 const PORT = process.env.PORT || 5000;
 
 mongoose
